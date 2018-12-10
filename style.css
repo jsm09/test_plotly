@@ -192,8 +192,8 @@ background-color: rgba(34, 100, 102, 0.25) !important;
 
 a:hover
 {
-  background-color: #226466;
-  color: white;
+  background-color: #226466 !important;
+  color: white !important;
 }
 
 .gray-box{
