@@ -77,11 +77,32 @@ p{ margin-bottom: 1rem }
 
 div.padded{ padding: 10px; }
 
-h6.padded, p.padded{
+a.padded, p.padded{
+padding: 2px 5px;
+margin-top: 5px;
+margin-bottom: 2px;
+}
+
+h6.padded{
 padding: 2px 5px;
 margin-top: 20px;
 margin-bottom: 2px;
+font-family: 'Gotham-Bold';
+font-size: 1.4rem;
 }
+
+h6.opener{
+  font-family: 'Gotham-Bold';
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #ededed !important;
+  font-size: 1.4rem;
+  /*border: 5px solid red;*/
+}
+/*color: #226466;*/
+
+p{color:gray}
 
 .blue-text{ color: #8496B8; }
 
@@ -114,7 +135,7 @@ td, th { border: 0 }
 
 h1, h5, h6{ margin: 0 }
 
-h6{ font-size: 1.525rem }
+h6{ font-size: 1.4rem;}/*1.525rem /*
 
 h6.tiny-header {
 font-size: 10px;
@@ -161,7 +182,7 @@ font-weight: bold;
 /* color: turquoise; */
 font-family: "Gotham-Bold";
 border-style: none;
-padding: 13.3px;
+padding: 14px !important;
 margin: 4px;
 text-align: center;
 text-decoration: none;
@@ -173,6 +194,10 @@ a:hover
 {
   background-color: #226466;
   color: white;
+}
+
+.gray-box{
+  background-color: #f5f5f5;
 }
 
 .active_tab {
@@ -193,6 +218,7 @@ visibility: hidden;
 div.padded {
   padding: 40px;
 }
+
 h5 {
 color: white;
 font-size: 3.1rem;
@@ -207,5 +233,5 @@ h5 {
 
 .header_h6 {
 color: gray;
-font-size: 1.525rem
+font-size: 1.4rem;
 }
