@@ -181,13 +181,13 @@ font-weight: bold;
 /* border-right-style: none; */
 /* color: turquoise; */
 font-family: "Gotham-Bold";
-border-style: none;
+border-style: none !important;
 padding: 14px !important;
 margin: 4px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-background-color: rgba(34, 100, 102, 0.25);
+background-color: rgba(34, 100, 102, 0.25) !important;
 }
 
 a:hover
