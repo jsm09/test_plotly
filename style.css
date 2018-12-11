@@ -182,7 +182,7 @@ font-weight: bold;
 /* color: turquoise; */
 font-family: "Gotham-Bold";
 border-style: none !important;
-padding: 14px !important;
+padding: 13.3px !important;
 margin: 4px;
 text-align: center;
 text-decoration: none;
@@ -201,7 +201,7 @@ a:hover
 }
 
 .active_tab {
-  background-color: #226466;
+  background-color: #226466 !important;
   color: white;
 }
 
